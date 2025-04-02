@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main(){
+    
+    int a=3; //yaha pa ham na ik variable ko value de ha (inilization of variable ) 
+    int *p=&a; //(*p  ya dereference operator hota ha jo pointer ma use hota ha yaha sa pata lagta ha ya pointer ha)
+    /*::> *p ik pointer ha or &a Adress operator use ha means pointer ma adress store ho raha ha 
+    pointers adress ke value store karna ka lia use hota han */
+
+    cout<<"The address of A is "<<&a<<endl;    //Adress of operator 
+    cout<<"The address of A is "<<p<<endl;    //Dereference operator
+    cout<<"The Value of A is "<<*p<<endl; //*p ya value show kara ga jo adrees of a ma ha 
+        
+    return 0;
+}
