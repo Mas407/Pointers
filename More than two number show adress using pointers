@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+int a=2;
+float b=2.23;
+char ch='$';
+int *p1=&a;
+cout<<"The Adress of A is ::> "<<p1<<endl;
+cout<<"The Value of A is ::> "<<*p1<<endl;
+float  *p2=&b;
+cout<<"The Adress of B is ::> "<<p2<<endl;
+cout<<"The Value of B is ::> "<<*p2<<endl;
+
+char *p3=&ch;
+cout<<"The Adress of A is ::> "<<p3<<endl;
+cout<<"The Value of A is ::> "<<*p3<<endl;
+
+    return 0;
+}
