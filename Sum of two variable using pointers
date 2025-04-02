@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main(){
+//Sum of two variable using pointers
+int a,b;
+int *p1,*p2;
+p1=&a;
+p2=&b;
+
+cout<<"Enter the value of first variable ::> ";
+cin>>*p1;
+cout<<"Enter the value of secound variable ";
+cin>>*p2;
+cout<<"Sum of the variable is ::> "<<*p1+*p2<<endl;
+    
+
+    return 0;
+}
